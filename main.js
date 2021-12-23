@@ -50,6 +50,7 @@ export function makeAMillion(startingBalance) {
       console.log("extra days: " + extraDays);
       totalDays = totalDays + extraDays;
       console.log(totalDays);
+      dollarsInTheBank = 1000000;
       return totalDays;
     }
 
