@@ -1,6 +1,6 @@
 //👉 Write your tests below here:
 
-import {makeAMillion} from './main'
+import { makeAMillion } from "./main";
 
 test("Check the function correctly calculates the number of days to reach the target", function () {
   const expected = 15816;
@@ -14,4 +14,3 @@ test("Check the function correctly calculates the number of days to reach the ta
   const actual = makeAMillion(n);
   expect(actual).toBe(expected);
 });
-
